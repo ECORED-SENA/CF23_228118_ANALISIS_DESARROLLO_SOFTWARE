@@ -6,8 +6,9 @@
 
     .row.justify-content-center
       .col-lg-10.mb-5
-        figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+        .fondo-color-sistema-h.borde-20.p-2
+          figure
+            img(src="@/assets/curso/temas/sintesis.svg", alt="Diagrama que detalla la construcción de una aplicación web, dividiéndola en dos partes principales: Back-End y Front-End. El Back-End incluye configuración inicial, desarrollo del servidor, base de datos, modelos y rutas, controladores, y pruebas. El Front-End abarca configuración inicial, desarrollo, servicios y componentes, e interfaz de usuario. Cada sección desglosa tareas específicas, como herramientas utilizadas, estructura del proyecto, configuración de rutas, y generación de componentes.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
