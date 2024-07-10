@@ -43,10 +43,119 @@
   @media screen and (max-width: $bp-max-xs)
     background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
 
-//fondos
+.banner-interno
+  height: 160px
+  .banner-interno__fondo
+    background-position: right
+    background-image: url(../assets/curso/fondo_tema.png) !important
+.titulo-principal.color-acento-contenido
+  .titulo-principal__numero
+    span
+      color: $color-sistema-texto
+
+//colores
 .fondo-color-sistema-h
   background-color: $color-sistema-h
+.fondo-color-sistema-i
+  background-color: $color-sistema-i
+.fondo-color-primario
+  background-color: $color-primario
+.fondo-color-acento-contenido
+  background-color: $color-acento-contenido
+
+.c-color-acento-contenido
+  color: $color-acento-contenido
+//fondos
+.fondo-personalizado-1
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 108%
+    left: -4%
+    @media screen and (max-width: $bp-max-xl)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: $bp-max-lg)
+      width: 112%
+      left: -6%
+    @media screen and (max-width: $bp-max-md)
+      width: 116%
+      left: -8%
+    @media screen and (max-width: $bp-max-sm)
+      width: 110%
+      left: -5%
+    @media screen and (max-width: 520px)
+      width: 120%
+      left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-repeat: no-repeat
+    background-position: top
+    background-size: cover
+  &.no-tam-full
+    &:before
+      left: 0 !important
+      width: 100% !important
+  &.f1
+    &:before
+      background-image: url(../assets/curso/temas/4.png)
+  &.f2
+    &:before
+      background-image: url(../assets/curso/temas/9.png)
+  &.top-1
+    &:before
+      top: 50px
+  &__contenido
+    position: relative
+
+.fondo-personalizado-2
+  background: rgb(119,55,240)
+  background: linear-gradient(180deg, rgba(119,55,240,1) 0%, rgba(41,17,85,1) 100%)
 
 //bordes
 .borde-20
   border-radius: 20px
+
+.borde-10
+  border-radius: 10px
+
+//burbujas
+.burbuja-1
+  display: inline-block
+  border-radius: 50%
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
+  -moz-box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
+  box-shadow: 0px 0px 6px 0px rgba(255,255,255,0.66)
+
+//bloque codigo
+.bloque-codigo-personalizado
+  width: 100%
+  border-radius: 9px
+  overflow: hidden
+  .fs-i
+    font-style: italic
+  .cabecera-bloque-codigo
+    background-color: $color-primario !important
+    .bloque-codigo-circulos
+      display: flex
+      gap: 1em
+      .bloque-codigo-circulo
+        height: 16px
+        width: 16px
+        border-radius: 50%
+        &.c1
+          background-color: #FB130D
+        &.c2
+          background-color: #FECD02
+        &.c3
+          background-color: #43DFAA
+  .cuerpo-bloque-codigo
+    color: white !important
+    background-color: #110628 !important
+    overflow-x: auto
+    text-wrap: nowrap
+    code
+      font-family: $base-font-family
+      color: white !important
