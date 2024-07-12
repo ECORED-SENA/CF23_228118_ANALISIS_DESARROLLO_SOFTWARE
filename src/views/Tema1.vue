@@ -476,8 +476,269 @@
 
     #t_1_6.titulo-segundo.color-acento-contenido
       h2 1.6 Desarrollo de controladores para la API REST
+    
+    .row.align-items-center.mb-5 
+      .col-lg-7
+        p.mb-4 Para mantener una estructura organizada y facilitar el crecimiento de la aplicación, se recomienda el uso de controladores. Los controladores son responsables de definir los métodos y acciones necesarios para las rutas de la aplicación. En este caso, se creará el archivo empleado.controller.js dentro de la carpeta #[em controllers].
+        .fondo-color-sistema-m.p-4.px-lg-5.borde-15
+          p.mb-0 A continuación, se presenta un ejemplo de cómo podría estructurarse el controlador para manejar las operaciones básicas de la API REST:
+      .col-lg-5
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/19.png",style="max-width: 502px;")
+    
+    .row.justify-content-center.mb-5.pt-3
+      .col-lg-6
+        .bloque-codigo-personalizado(data-aos="flip-up")
+          .cabecera-bloque-codigo.p-4.py-3
+            .bloque-codigo-circulos 
+              .bloque-codigo-circulo.c1
+              .bloque-codigo-circulo.c2
+              .bloque-codigo-circulo.c3
+          .cuerpo-bloque-codigo.p-4
+            code.text-wrap
+              span.fs-i /**
+              br
+              span.fs-i * Se coloca el controlador como un objeto y luego se exporta como
+              br
+              span.fs-i * se requiere primero el modelo empleado
+              br
+              span.fs-i */
+              br
+              br
+              span.fs-i const Empleado = require('../models/empleado');
+              br
+              span.fs-i const empleadoCtrl = {};
+              br
+              br
+              span.fs-i /**
+              br
+              span.fs-i * DEFINO LOS MÉTODOS
+              br
+              span.fs-i */
+              br
+              br
+              span.fs-i // Obtener todos los empleados
+              br
+              span.fs-i empleadoCtrl.getEmpleados = async (req, res) => {
+              br
+              span.fs-i  &nbsp;&nbsp;   const empleados = await Empleado.find();
+              br
+              span.fs-i  &nbsp;&nbsp;   res.json(empleados);
+              br
+              span.fs-i }
+              br
+              br
+              span.fs-i // Crear empleados
+              br
+              span.fs-i empleadoCtrl.createEmpleados = async (req, res) => {
+              br
+              span.fs-i  &nbsp;&nbsp;   const empleado = new Empleado(req.body);
+              br
+              span.fs-i  &nbsp;&nbsp;   await empleado.save();
+              br
+              span.fs-i  &nbsp;&nbsp;   res.json({
+              br
+              span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;       'status': 'Empleado guardado'
+              br
+              span.fs-i  &nbsp;&nbsp;   });
+              br
+              span.fs-i }
+              br
+              br
+              span.fs-i // Conseguir un único empleado
+              br
+              span.fs-i empleadoCtrl.getUnicoEmpleado = async (req, res) => {
+              br
+              span.fs-i  &nbsp;&nbsp;   const empleadoUnico = await Empleado.findById(req.params.id);
+              br
+              span.fs-i  &nbsp;&nbsp;   res.json(empleadoUnico);
+              br
+              span.fs-i }
+              br
+              br
+              span.fs-i // Actualizar empleado
+              br
+              span.fs-i empleadoCtrl.editarEmpleado = async (req, res) => {
+              br
+              span.fs-i  &nbsp;&nbsp;   const { id } = req.params;
+              br
+              span.fs-i  &nbsp;&nbsp;   const empleadoEdit = {
+              br
+              span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;       name: req.body.name,
+              br
+              span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;       position: req.body.position,
+              br
+              span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;       office: req.body.office,
+              br
+              span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;       salary: req.body.salary
+              br
+              span.fs-i  &nbsp;&nbsp;   };
+              br
+              span.fs-i  &nbsp;&nbsp;   await Empleado.findByIdAndUpdate(id, {$set: empleadoEdit}, {new: true});
+              br
+              span.fs-i  &nbsp;&nbsp;   res.json({status: 'Empleado Actualizado'});
+              br
+              span.fs-i }
+              br
+              br
+              span.fs-i // Eliminar empleado
+              br
+              span.fs-i empleadoCtrl.eliminarEmpleado = async (req, res) => {
+              br
+              span.fs-i  &nbsp;&nbsp;   await Empleado.findByIdAndDelete(req.params.id);
+              br
+              span.fs-i  &nbsp;&nbsp;   res.json({status: 'Empleado Eliminado'});
+              br
+              span.fs-i }
+              br
+              br
+              span.fs-i // exporto el módulo
+              br
+              span.fs-i module.exports = empleadoCtrl;
+    
+    .row.mb-5.py-4
+      .col-auto.d-none.d-md-block 
+        figure
+          img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 85px;")
+      .col 
+        p.mb-0 El desarrollo de controladores para la API REST se realiza:
+    
+    p(style="color: red;") falta un slider aca.
 
+    .row.mb-5.py-4
+      .col-auto.d-none.d-md-block 
+        figure
+          img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 85px;")
+      .col 
+        p.mb-0 A continuación, se definen las rutas, por lo que se configura y desarrolla la lógica de esta sección en el archivo empleados.routes.js dentro de la carpeta #[em routes]:
 
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        .bloque-codigo-personalizado(data-aos="flip-up")
+          .cabecera-bloque-codigo.p-4.py-3
+            .bloque-codigo-circulos 
+              .bloque-codigo-circulo.c1
+              .bloque-codigo-circulo.c2
+              .bloque-codigo-circulo.c3
+          .cuerpo-bloque-codigo.p-4
+            code.text-wrap
+              span.fs-i plaintext
+              br
+              span.fs-i /**
+              br
+              span.fs-i *
+              br
+              span.fs-i * creamos un módulo por eso utilizamos express
+              br
+              span.fs-i */
+              br
+              br
+              span.fs-i const express = require('express');
+              br
+              span.fs-i const router = express.Router();
+              br
+              span.fs-i const empleadoCtrl = require('../controllers/empleado.controller');
+              br
+              br
+              span.fs-i router.get('/', empleadoCtrl.getEmpleados); // Rutas más limpias (obtener empleados)
+              br
+              span.fs-i router.post('/', empleadoCtrl.createEmpleados); // guardar
+              br
+              span.fs-i router.get('/:id', empleadoCtrl.getUnicoEmpleado); // obtiene un único empleado
+              br
+              span.fs-i router.put('/:id', empleadoCtrl.editarEmpleado); // Actualizar datos (uno a la vez)
+              br
+              span.fs-i router.delete('/:id', empleadoCtrl.eliminarEmpleado);
+              br
+              br
+              span.fs-i module.exports = router;
+    
+    .row.align-items-center.mb-5
+      .col-lg-7.mb-4.mb-lg-0
+        p.mb-4 Con respecto al código anterior, se observa que se requiere el uso del controlador, por lo que se almacena en una constante llamada empleadoCtrl, y de esta forma se pueden utilizar todos los métodos de este, es decir, la gestión o #[b CRUD] sobre el empleado.
+        .fondo-color-sistema-m.p-4
+          p.mb-0 En ese sentido, se observa que el objeto #[em router] llama a cada uno de los métodos por defecto de petición HTTP como #[b GET, POST, PUT], entre otros, asociados a los métodos realizados con el controlador. De manera que se tienen rutas mucho más limpias y apoyadas con la buena práctica del uso del controlador.
+      .col-lg-5
+        figure
+          img.mx-auto(src="@/assets/curso/temas/20.png",style="max-width: 502px;")
+    
+    Separador
+
+    #t_1_7.titulo-segundo.color-acento-contenido
+      h2 1.7 Realización de pruebas de la API REST con Postman
+    
+    .row.mb-5 
+      .col-lg-8
+        p.mb-4 Una vez finalizada la construcción del modelo, controlador y rutas, se procede a realizar las pruebas respectivas para evaluar el funcionamiento de la API REST. Para ello, se utilizará la herramienta #[em Postman].
+        p.mb-0 Se comienza insertando datos utilizando el método POST, el cual llamará a la ruta para crear empleados.
+      .col-lg-4.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/21.svg",style="max-width: 400px;")
+
+    .row.justify-content-center.mb-5.pb-3
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Figura 3.] Pruebas con Postman
+        figure
+          img.mx-auto(src="@/assets/curso/temas/22.svg",style="max-width: 820px;",alt="Interfaz de Postman configurada para hacer una petición POST a la API REST, incluyendo el payload con los datos del empleado y la respuesta en formato JSON indicando que el empleado ha sido guardado.")
+    
+    p.mb-5 En la figura anterior se pueden apreciar los datos que se envían al servidor, dado que #[em Postman] permite realizar esa emulación del cliente. Los datos que se envían están acordes al esquema definido en el modelo de #[em empleado.js], como lo son #[em name, position, office y salary]. La respuesta en consola, que se programa como #[em status], es que el Empleado ha sido guardado.
+
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .fondo-personalizado-3.p-4.borde-11
+          .row.align-items-center
+            .col-md-auto
+              .d-flex.mb-4.mb-md-0.justify-content-center
+                .burbuja-1.fondo-color-acento-contenido.p-2
+                  figure
+                    img.mx-auto(src="@/assets/curso/temas/23.png",style="max-width: 74px;")
+            .col 
+              p.mb-0.text-white En este orden de ideas, es necesario revisar la base de datos y verificar que efectivamente se ha guardado la información y si realmente #[em MongoDB] la ha creado.
+
+    .row.mb-5
+      .col-auto.d-none.d-md-block 
+        figure
+          img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 85px;")
+      .col 
+        p.mb-0 En la siguiente figura se presenta la imagen que representa la interfaz gráfica de #[em MongoDB] y el resultado de verificación de la creación de la base de datos.
+    
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Figura 4.] Panel MongoDB
+        figure
+          img.mx-auto(src="@/assets/curso/temas/24.svg",style="max-width: 400px;",alt="Interfaz de MongoDB Compass mostrando la base de datos local con la colección de empleados seleccionada.")
+    
+    .row.mb-5
+      .col-auto.d-none.d-md-block 
+        figure
+          img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 85px;")
+      .col 
+        p.mb-0 La siguiente figura muestra el resultado de la verificación de un registro de empleado almacenado en MongoDB.
+    
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Figura 5.] Registro de empleado almacenado en MongoDB
+        figure
+          img.mx-auto(src="@/assets/curso/temas/25.svg",style="max-width: 610px;",alt="Interfaz de MongoDB mostrando el documento del empleado guardado con sus respectivos campos y valores.")
+    
+    .row.align-items-center.mb-5
+      .col-lg-7.mb-4.mb-lg-0
+        p.mb-3 Como es evidente, la API REST funciona correctamente. Se ha creado la base de datos empleado y se tiene almacenado el primer registro del empleado Santiago. De igual forma, se confirma que los demás métodos HTTP, como GET, PUT o DELETE, también funcionan. Por lo tanto, se realiza la invitación a probar la API con #[em Postman].
+        .fondo-color-sistema-m.p-4
+          p.mb-0 Hasta este punto se ha realizado el desarrollo del #[em back-end], por lo que se tiene la base de datos lista para proceder con la construcción del #[em front-end], que será el que interactuará con el servidor. A continuación, se presenta una figura que ilustra la estructura general del proyecto.
+      .col-lg-5
+        figure
+          img.mx-auto(src="@/assets/curso/temas/26.png",style="max-width: 502px;")
+    
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        .titulo-sexto.color-acento-contenido.mb-5
+          p.mb-0 #[b Figura 6.] Resumen estructura del proyecto web
+        figure
+          img.mx-auto(src="@/assets/curso/temas/27.svg",style="max-width: 820px;",alt="Diagrama del stack MEAN (MongoDB, Express, Angular, Node.js) con iconos que representan las tecnologías y la comunicación entre el front-end y el back-end.")
 
 
 </template>
