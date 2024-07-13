@@ -28,7 +28,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Instalación y configuración de herramientas de Node.js
     
-    .row 
+    .row.mb-5
       .col-auto.d-none.d-md-block 
         figure
           img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 85px;")
@@ -37,7 +37,36 @@
 
     .fondo-personalizado-1.f2.top-1
       .fondo-personalizado-1__contenido.pb-4
-        p(style="color: red;") seccion de codigo con listado de estructura
+      
+        .row.justify-content-center.mb-5.pt-1.pb-3
+          .col-lg-6
+            .bloque-codigo-personalizado(data-aos="flip-up")
+              .cabecera-bloque-codigo.p-4.py-3
+                .bloque-codigo-circulos 
+                  .bloque-codigo-circulo.c1
+                  .bloque-codigo-circulo.c2
+                  .bloque-codigo-circulo.c3
+              .cuerpo-bloque-codigo.p-4
+                code.text-wrap
+                span.c-color-acento-contenido.fw-bold GESTION-EMPLEADOS
+                br
+                span.fs-i &bull; &nbsp;&nbsp;	backend
+                br
+                span.fs-i &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	controllers
+                br
+                span.fs-i &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	models
+                br
+                span.fs-i &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	routes
+                br
+                span.fs-i &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	database.js
+                br
+                span.fs-i &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o	index.js
+                br
+                span.fs-i &bull; &nbsp;&nbsp;	node_modules
+                br
+                span.fs-i &bull; &nbsp;&nbsp;	package-lock.json
+                br
+                span.fs-i &bull; &nbsp;&nbsp;	package.json
 
         .row.mb-5
           .col-lg-8.mb-4.mb-lg-0

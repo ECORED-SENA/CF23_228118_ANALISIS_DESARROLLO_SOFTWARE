@@ -66,13 +66,21 @@
   background-color: $color-sistema-l
 .fondo-color-sistema-m
   background-color: $color-sistema-m
+.fondo-color-sistema-n
+  background-color: $color-sistema-n
+.fondo-color-sistema-o
+  background-color: $color-sistema-o
+.fondo-color-sistema-p
+  background-color: $color-sistema-p
+.fondo-color-sistema-q
+  background-color: $color-sistema-q
 .fondo-color-primario
   background-color: $color-primario
 .fondo-color-acento-contenido
   background-color: $color-acento-contenido
 
 .c-color-acento-contenido
-  color: $color-acento-contenido
+  color: $color-acento-contenido !important
 //fondos
 .fondo-personalizado-1
   position: relative
@@ -111,7 +119,7 @@
       background-position: bottom
   &.pos-full
     &:before
-      background-size: contain
+      background-size: 100%
       @media screen and (max-width: $bp-max-md)
         background-size: cover
   &.f1
@@ -138,6 +146,18 @@
   &.f8
     &:before
       background-image: url(../assets/curso/temas/39.png)
+  &.f9
+    &:before
+      background-image: url(../assets/curso/temas/41.png)
+  &.f10
+    &:before
+      background-image: url(../assets/curso/temas/44.png)
+  &.f11
+    &:before
+      background-image: url(../assets/curso/temas/56.png)
+  &.f12
+    &:before
+      background-image: url(../assets/curso/temas/58.png)
   &.top-1
     &:before
       top: 50px
@@ -153,6 +173,10 @@
   background: linear-gradient(180deg, rgba(146,41,238,1) 0%, rgba(98,17,170,1) 20%, rgba(52,9,90,1) 100%)
 
 //bordes
+.borde-26
+  border-radius: 26px
+.borde-27
+  border-radius: 27px
 .borde-20
   border-radius: 20px
 .borde-15
@@ -163,6 +187,8 @@
   border-radius: 17px
 .borde-11
   border-radius: 11px
+.borde-13
+  border-radius: 13px
 .borde-10
   border-radius: 10px
 
@@ -250,3 +276,9 @@
   text-decoration: none
   &:hover
     color: #6D18B9
+
+//margins
+.mper-1
+  margin-top: -3.7rem
+  @media screen and (max-width: $bp-max-md)
+    margin-top: 0
