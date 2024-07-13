@@ -2,18 +2,18 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.pb-0.pb-md-0
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Construcción del #[em front-end] de la aplicación web
     
-    p.mb-4 Para esta sección se plantea generar una sola vista, que corresponde al formulario de registro de empleados. Por esta razón, no es necesario generar #[em sketch] o maquetación para evaluar la navegación entre distintos componentes. No obstante, se emplean buenas prácticas de diseño amparadas en las técnicas y tecnologías como #[em Materialize], que dará alcance a varias reglas de estilo para los sistemas interactivos de #[em software].
+    p.mb-4(data-aos="fade-up") Para esta sección se plantea generar una sola vista, que corresponde al formulario de registro de empleados. Por esta razón, no es necesario generar #[em sketch] o maquetación para evaluar la navegación entre distintos componentes. No obstante, se emplean buenas prácticas de diseño amparadas en las técnicas y tecnologías como #[em Materialize], que dará alcance a varias reglas de estilo para los sistemas interactivos de #[em software].
 
     .fondo-personalizado-1.f4.mb-4
       .fondo-personalizado-1__contenido.pt-5.pb-5
         .row.justify-content-center
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -33,10 +33,10 @@
     
     Separador
 
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.1 Instalación y configuración de AngularJS
 
-    .row.mb-5.py-3
+    .row.mb-5.py-3(data-aos="fade-up")
       .col-auto.d-none.d-md-block 
         figure
           img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 85px;")
@@ -47,7 +47,7 @@
       .fondo-personalizado-1__contenido.pb-5
         .row.justify-content-center.mb-5
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -87,14 +87,14 @@
                 br
                 span.fs-i │   ├── tsconfig.spec.json
 
-        .row.mb-5.pt-3.pb-3
+        .row.mb-5.pt-3.pb-3(data-aos="fade-up")
           .col-lg-7.mb-4.mb-lg-0
             p.mb-0 A continuación, se debe ingresar a la carpeta del #[em front-end] e iniciar el servidor digitando en la terminal del VS Code la siguiente línea de comandos: ng serve. Es importante recordar que para ingresar por la terminal a la carpeta de #[em front-end] se hace con el comando cd, es decir, cd Frontend/. Una vez dentro de la carpeta #[em front-end] se ejecuta el comando ng serve, lo que inicia un servidor de desarrollo para Angular. En ese sentido, el servidor se inicializa en el puerto 4200 (#[a.link-personalizado-1(target='_blank',href='http://localhost:4200/') http://localhost:4200/]), como se representa en la siguiente figura:
           .col-lg-5
             figure
               img.mx-auto(src="@/assets/curso/temas/29.png",style="max-width: 502px;")
 
-    .row.justify-content-center.mb-2
+    .row.justify-content-center.mb-2(data-aos="fade-up")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-5
           p.mb-0 #[b Figura 7.] Estado servidor #[em Front-end]
@@ -103,10 +103,10 @@
     
     Separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido.mt-2
+    #t_2_2.titulo-segundo.color-acento-contenido.mt-2(data-aos="flip-up")
       h2 2.2 Generación de código con ng
     
-    .row 
+    .row(data-aos="fade-up")
       .col-lg-7
         p.mb-4 Después de iniciar el servidor Angular, se revisa la estructura de directorios de este #[em framework]. Aunque hay muchos archivos, es necesario concentrarse en la carpeta ubicada en la ruta frontend/src/app. En la carpeta #[em app] se realizará todo el código necesario para el proyecto.
         p.mb-0 Adicionalmente, para dar coherencia al proyecto, dentro de la carpeta app se crean tres carpetas más: #[em models, services y components], para tener bien definido el proyecto.
@@ -118,7 +118,7 @@
       .fondo-personalizado-1__contenido.pb-4.pt-5
         .row.justify-content-center.pt-2
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -158,7 +158,7 @@
                 br
                 br
 
-    .row
+    .row(data-aos="fade-up")
       .col-auto.d-none.d-md-block 
         figure
           img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 85px;")
@@ -167,7 +167,7 @@
     
     .fondo-personalizado-1.f7.mb-4
       .fondo-personalizado-1__contenido.pt-5.pb-2
-        .row.justify-content-center 
+        .row.justify-content-center(data-aos="fade-up")
           .col-lg-4.col-md-6.mb-4
             .fondo-color-primario.p-4.p-md-5.borde-16.h-100
               figure.mb-4
@@ -187,7 +187,7 @@
               h4.mb-4.c-color-acento-contenido.text-center Crear servicio empleado
               p.mb-0.text-white.mb-5 Dentro de la carpeta services se crea un servicio llamado empleado con la siguiente línea: #[b ng g s empleado].
     
-    .row.mb-4
+    .row.mb-4(data-aos="fade-up")
       .col-auto.d-none.d-md-block 
         figure
           img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 85px;")
@@ -198,7 +198,7 @@
       .fondo-personalizado-1__contenido.pb-4.pt-5
         .row.justify-content-center
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -235,9 +235,9 @@
     .fondo-personalizado-1.f8.mb-4
       .fondo-personalizado-1__contenido.pt-5.pb-4
 
-        #t_2_3.titulo-segundo.color-acento-contenido
+        #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
           h2 2.3 Incorporación de #[em Materialize] al proyecto web
-        .row.mb-5
+        .row.mb-5(data-aos="fade-up")
           .col-auto.d-none.d-md-block 
             figure
               img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 85px;")
@@ -246,7 +246,7 @@
         
         .row.justify-content-center.mb-4
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -290,10 +290,10 @@
 
         Separador
 
-        #t_2_4.titulo-segundo.color-acento-contenido.mt-3
+        #t_2_4.titulo-segundo.color-acento-contenido.mt-3(data-aos="flip-up")
           h2 2.4 Configuración de app.component.html
         
-        .row.mb-5
+        .row.mb-5(data-aos="fade-up")
           .col-auto.d-none.d-md-block 
             figure
               img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 85px;")
@@ -302,7 +302,7 @@
         
         .row.justify-content-center
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -329,7 +329,7 @@
                 br
                 span.fs-i &lt;/div&gt;
     
-    .row.mb-3
+    .row.mb-3(data-aos="fade-up")
       .col-auto.d-none.d-md-block 
         figure
           img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 85px;")
@@ -338,10 +338,10 @@
     
     Separador
 
-    #t_2_5.titulo-segundo.color-acento-contenido
+    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.5 Configuración de los módulos #[em app.module.ts]
     
-    .row.align-items-center.mb-5 
+    .row.align-items-center.mb-5(data-aos="fade-up")
       .col-lg-7
         p.mb-3 A continuación, se configura uno de los archivos más importantes del proyecto, el cual se encarga de cargar los módulos de la aplicación. Es necesario entender la naturaleza de la aplicación que se está desarrollando, ya que esto permitirá definir qué módulos son necesarios para el óptimo funcionamiento de la aplicación.
         .fondo-color-sistema-m.p-4.px-lg-5.borde-16
@@ -354,7 +354,7 @@
       .fondo-personalizado-1__contenido.pb-5
         .row.justify-content-center
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -412,10 +412,10 @@
     
     Separador
 
-    #t_2_6.titulo-segundo.color-acento-contenido
+    #t_2_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.6 Configuración del modelo #[em empleado.ts]
     
-    .row.align-items-center.mper-1.mb-5
+    .row.align-items-center.mper-1.mb-5(data-aos="fade-up")
       .col-lg-9
         p.mb-4 Una vez realizada la configuración en los módulos de la aplicación, se inicia la construcción del modelo de la aplicación. La codificación se realiza dentro del archivo #[em empleado.ts], cuya ruta es #[em models/empleado.ts].
         p.mb-0 Dentro de este archivo se define la estructura de datos que está asociada a lo que se describió en el #[em back-end].
@@ -427,7 +427,7 @@
       .fondo-personalizado-1__contenido.pt-5.pb-4
         .row.justify-content-center
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -468,14 +468,14 @@
                 br
                 br
     
-    p.mb-4 En el código anterior, se definen los parámetros que serán utilizados para el envío de datos hacia el servidor; por lo tanto, se comienza con la inicialización de las variables a través de un constructor y con la declaración del tipo de datos de cada una.
+    p.mb-4(data-aos="fade-up") En el código anterior, se definen los parámetros que serán utilizados para el envío de datos hacia el servidor; por lo tanto, se comienza con la inicialización de las variables a través de un constructor y con la declaración del tipo de datos de cada una.
 
     Separador
 
-    #t_2_7.titulo-segundo.color-acento-contenido
+    #t_2_7.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.7 Creación del servicio empleado.service.ts
     
-    .row.mb-4 
+    .row.mb-4(data-aos="fade-up")
       .col-lg-7
         p.mb-4 El objetivo general de esta parte del proyecto es agregar los datos ya definidos a la REST API. Para ello, se enfoca en generar el servicio necesario, desarrollando el archivo #[em empleado.service.ts]. Este servicio permite definir los métodos reutilizables en cualquier parte de la aplicación. En este caso, se trata de funciones que gestionan los datos, como agregar, eliminar, y editar, entre otros.
         p.mb-0 A continuación, se presenta el código del archivo #[em empleado.service.ts].
@@ -487,7 +487,7 @@
       .fondo-personalizado-1__contenido.py-5
         .row.justify-content-center
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -561,11 +561,11 @@
                 br
                 span.fs-i }
     
-    p.mb-4 En el código anterior se resalta la importancia de haber definido primeramente el módulo #[em empleado.ts], ya que esto establece una estructura clara de datos. Por esta razón, se importa el modelo y se asegura la comunicación con el servidor a través de la modificación del archivo #[em app.modules.ts] con la incorporación del módulo #[em HTTPClient].
+    p.mb-4(data-aos="fade-up") En el código anterior se resalta la importancia de haber definido primeramente el módulo #[em empleado.ts], ya que esto establece una estructura clara de datos. Por esta razón, se importa el modelo y se asegura la comunicación con el servidor a través de la modificación del archivo #[em app.modules.ts] con la incorporación del módulo #[em HTTPClient].
 
     .fondo-personalizado-1.pos-full.f5.mb-2
       .fondo-personalizado-1__contenido.pb-5.pt-5
-        .row.justify-content-center.mb-5.pb-5
+        .row.justify-content-center.mb-5.pb-5(data-aos="fade-up")
           .col-lg-10
             .borde-16.overflow-hidden
               .row
@@ -578,32 +578,32 @@
                     .d-flex.align-items-center.h-100
                       p.text-white.mb-0(style="font-size: 13px;") Además, se establece como atributo de solo lectura la URL de la API a la cual se conectará el cliente, en este caso, la URL del servidor ya configurada en la primera sección de este componente es #[a.link-personalizado-1.c-color-acento-contenido(style="font-style: italic;",target='_blank',href='http://localhost:3000/empleados') http://localhost:3000/empleados].
         
-        .row.align-items-center.pb-5
+        .row.align-items-center.pb-5(data-aos="fade-up")
           .col-lg-7
             p.mb-0 A continuación, se procede con la definición de los métodos para la gestión de los datos de empleado, generando así cuatro métodos: #[ getEmpleados, postEmpleados, putEmpleado y deleteEmpleado]. Para el caso de estudio, se analiza el método #[em postEmpleado], que recibe como parámetro un objeto de tipo #[em Empleado]. El retorno es la adición de un nuevo empleado (se envían todos los datos) a través del método HTTP POST:
           .col-lg-5
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/46.png",style="max-width: 502px;")
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-up")
       .col-lg-6
         .fondo-color-sistema-m.borde-16.p-4.mb-5
           p.mb-0.fw-bold.text-center return this.http.post(this.URL_API, Empleado);
     
-    p.mb-2 Es fundamental asegurarse de que en cada método se envíe la URL del servidor y los datos necesarios en relación con el método correspondiente.
+    p.mb-2(data-aos="fade-up") Es fundamental asegurarse de que en cada método se envíe la URL del servidor y los datos necesarios en relación con el método correspondiente.
 
     Separador
 
-    #t_2_8.titulo-segundo.color-acento-contenido
+    #t_2_8.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.8 Desarrollo del componente #[em empleados.component.ts]
     
-    p.mb-5 Definidos los servicios, es necesario abordar la lógica del componente. A continuación, se enfoca en el archivo #[em empleados.component.ts]. El código del archivo se presenta a continuación:
+    p.mb-5(data-aos="fade-up") Definidos los servicios, es necesario abordar la lógica del componente. A continuación, se enfoca en el archivo #[em empleados.component.ts]. El código del archivo se presenta a continuación:
 
     .fondo-personalizado-1.f10.mb-5
       .fondo-personalizado-1__contenido.pt-3.pb-5
         .row.justify-content-center
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -677,14 +677,14 @@
                 br
                 span.fs-i }
     
-    .row.mb-3 
+    .row.mb-3(data-aos="fade-up")
       .col-md-auto 
         figure.mb-4.mb-md-0
           img.mx-auto(src="@/assets/curso/temas/47.svg",style="max-width: 86px;")
       .col 
         p.mb-0 En el código anterior se destaca la importancia de haber creado y configurado previamente los módulos y archivos para la construcción de este componente. Para su funcionamiento adecuado, es necesario contar con #[em EmpleadoService], el modelo #[em Empleado] y el módulo ya definido como #[em NgForm].
     
-    .row.align-items-center.mb-5 
+    .row.align-items-center.mb-5(data-aos="fade-up")
       .col-lg-8
         .fondo-color-primario.p-4.borde-10.mb-4
           p.mb-0.text-white Una vez se importan estos módulos, se enfocan los esfuerzos en los métodos. Para el caso de estudio, se destaca el método de agregar empleado. Este método toma como parámetro la existencia de datos del formulario y, si es verdadero, llama al método del servicio empleado (previamente construido) #[em PostEmpleado], entregando los valores para que sean enviados al servidor y almacenados en la base de datos de MongoDB.
@@ -694,7 +694,7 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/48.png",style="max-width: 397px;")
     
-    .row.mb-4
+    .row.mb-4(data-aos="fade-up")
       .col-auto.d-none.d-md-block 
         figure
           img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 85px;")
@@ -703,12 +703,12 @@
 
     Separador
 
-    #t_2_9.titulo-segundo.color-acento-contenido
+    #t_2_9.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.9 Desarrollo de la interfaz HTML empleados.component.html
     
     .fondo-personalizado-1.f8.mb-4
       .fondo-personalizado-1__contenido.pb-5
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="fade-up")
           .col-lg-10
             .fondo-personalizado-3.p-4.borde-11
               .row.align-items-center
@@ -722,7 +722,7 @@
 
         .row.justify-content-center.pb-5
           .col-lg-8
-            .bloque-codigo-personalizado.pb-5(data-aos="flip-up")
+            .bloque-codigo-personalizado.pb-5(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -798,7 +798,7 @@
                   br
                   span.fs-i &lt;/div&gt;
 
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-up")
       .col-lg-7
         p.mb-3 En el código anterior se presenta la estructura base de un formulario en HTML, el cual se adhiere a clases y reglas provistas por #[em Materialize] para mejorar la apariencia de la interfaz. Además, se muestran cuatro #[em inputs] en los cuales el usuario debe ingresar datos, y al final se presentan dos botones: uno para enviar el formulario y otro para limpiarlo. A continuación, se destaca una línea de código específica:
         .fondo-color-sistema-m.p-4.borde-16.mb-5
@@ -811,10 +811,10 @@
     
     Separador
 
-    #t_2_10.titulo-segundo.color-acento-contenido
+    #t_2_10.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.10 Probando la aplicación completa.
     
-    .row.align-items-center.mb-5
+    .row.align-items-center.mb-5(data-aos="fade-up")
       .col-lg-6
         .fondo-color-sistema-o.p-4.p-lg-5
           p.mb-0.pb-lg-2 Proyecto web terminado Finalizada la codificación de cada uno de los archivos del #[em front-end], es necesario revisar cómo ha quedado la aplicación. Sin embargo, este paso no se realiza solo al final, sino que, debido a la concisión de este componente, se presenta en esta instancia. Como buena práctica, en cada bloque de desarrollo o línea se debe revisar el resultado obtenido, es decir, trabajar de manera paralela. Una muestra de la interfaz de la aplicación se ilustra en la siguiente figura:
@@ -824,7 +824,7 @@
     
     .fondo-personalizado-1.f11.mb-5
       .fondo-personalizado-1__contenido.pb-5
-        .row.justify-content-center.pt-1.mb-5
+        .row.justify-content-center.pt-1.mb-5(data-aos="fade-up")
           .col-lg-6
             .fondo-color-sistema-p.p-4.p-md-5.borde-27
               .px-md-4
@@ -834,7 +834,7 @@
                   figure
                   img.mx-auto(src="@/assets/curso/temas/52.svg",style="max-width: 297px;",alt="Formulario de entrada de datos para empleados, con campos para nombre, cargo, lugar de trabajo y salario, y botones para guardar y limpiar.")
         
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="fade-up")
           .col-lg-8
             .fondo-color-primario.p-4.borde-26.py-5
               .row.align-items-center
@@ -846,7 +846,7 @@
                 .col 
                   p.mb-0.text-white En la muestra anterior de la interfaz se ilustra un formulario en el cual se solicitan los datos al usuario para el registro de un empleado. Es importante notar el uso de los #[em placeholders] en cada caja de texto, cuya función es guiar o indicar qué tipo de datos se deben registrar. De esta manera, la interfaz quedaría como se muestra en la siguiente figura:
 
-        .row.justify-content-center.pt-1.mb-5
+        .row.justify-content-center.pt-1.mb-5(data-aos="fade-up")
           .col-lg-6
             .fondo-color-sistema-p.p-4.p-md-5.borde-27
               .px-md-4
@@ -856,21 +856,21 @@
                   figure
                   img.mx-auto(src="@/assets/curso/temas/54.svg",style="max-width: 295px;",alt="Formulario de entrada de datos para empleados rellenado con ejemplo de datos.")
         
-        .row.mb-5
+        .row.mb-5(data-aos="fade-up")
           .col-auto.d-none.d-md-block 
             figure
               img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 85px;")
           .col 
             p.mb-0 Al momento de dar clic en guardar, se almacena la información y se muestra la notificación de #[em Materialize Toast], indicando que el usuario se ha guardado exitosamente. Además, se limpia el formulario mediante la función #[em reset()], tal como se aprecia en la figura.
         
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="fade-up")
           .col-lg-8
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 10.] Notificación #[em Toast] de #[em Materialize]
             figure
               img.mx-auto(src="@/assets/curso/temas/55.svg",style="max-width: 820px;",alt="Interfaz de la aplicación web para la gestión de empleados, mostrando el formulario de entrada de datos y un mensaje de confirmación de guardado satisfactorio.")
     
-    .row
+    .row(data-aos="fade-up")
       .col-auto.d-none.d-md-block 
         figure
           img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 85px;")
@@ -881,7 +881,7 @@
       .fondo-personalizado-1__contenido.py-5
         .row.justify-content-center.mb-5
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -960,7 +960,7 @@
                   br
                   br
         
-        .row.mb-5
+        .row.mb-5(data-aos="fade-up")
           .col-auto.d-none.d-md-block 
             figure
               img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 85px;")
@@ -969,7 +969,7 @@
 
         .row.justify-content-center.mb-5
           .col-lg-8
-            .bloque-codigo-personalizado(data-aos="flip-up")
+            .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
                 .bloque-codigo-circulos 
                   .bloque-codigo-circulo.c1
@@ -993,14 +993,14 @@
                 br
                 span.fs-i }
 
-        .row.mb-5
+        .row.mb-5(data-aos="fade-up")
           .col-auto.d-none.d-md-block 
             figure
               img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 85px;")
           .col 
             p.mb-0 En los anteriores códigos se puede evidenciar que los datos se guardan correctamente en la base de datos, indicando que la aplicación desde el #[em front-end] funciona de manera idónea, así como la API REST del proyecto. Con esto se culmina este componente.
 
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="fade")
           .col-lg-8
             .fondo-personalizado-3.p-4.borde-11
               .row.align-items-center

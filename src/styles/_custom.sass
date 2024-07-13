@@ -81,6 +81,8 @@
 
 .c-color-acento-contenido
   color: $color-acento-contenido !important
+.c-color-sistema-r
+  color: $color-sistema-r !important
 //fondos
 .fondo-personalizado-1
   position: relative
@@ -171,6 +173,38 @@
 .fondo-personalizado-3
   background: rgb(146,41,238)
   background: linear-gradient(180deg, rgba(146,41,238,1) 0%, rgba(98,17,170,1) 20%, rgba(52,9,90,1) 100%)
+
+.fondo-personalizado-4
+  position: relative
+  overflow: hidden
+  &:before
+    content: ""
+    position: absolute
+    right: 0
+    left: 0
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-color: $color-primario
+  &__contenido
+    position: relative
+  .imgf-1
+    position: absolute
+    max-width: 120px
+    right: 20px
+    transform: translateY(-65%)
+  .imgf-2
+    position: absolute
+    max-width: 120px
+    bottom: 0
+    left: 15px
+    transform: translateY(60%)
+  .imgf-3
+    position: absolute
+    max-width: 471px
+    bottom: 0
+    right: 0
+    transform: translateY(38%) translateX(25%)
 
 //bordes
 .borde-26
@@ -282,3 +316,46 @@
   margin-top: -3.7rem
   @media screen and (max-width: $bp-max-md)
     margin-top: 0
+
+//pasos
+.pasos-personalizado-1
+  .pasos-b__header
+    align-items: center
+  .pasos-b__header__item__line-container
+    margin-bottom: 0
+  .pasos-b__header__item:first-child
+    .pasos-b__header__item__line-container:before
+      background-color: transparent
+  .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+    background-color: white
+  .pasos-b__header__item--before
+    .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
+    .pasos-b__header__item__dot
+      background-color: $color-acento-contenido
+      i
+        display: none
+      span
+        display: block
+  .pasos-b__header__item--active
+    .pasos-b__header__item__dot
+      background-color: $color-acento-contenido
+      span
+        color: $color-sistema-texto
+    .pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
+  .pasos-b__header__item__dot
+    background-color: white
+    border: none
+    min-width: 26px
+    max-width: 26px
+    min-height: 26px
+    max-height: 26px
+  .pasos-b__header__btn--right,.pasos-b__header__btn--left
+    background-color: $color-acento-botones
+    min-width: 40px
+    max-width: 40px
+    min-height: 40px
+    max-height: 40px
+    &:hover
+      border-color: #cccccc
