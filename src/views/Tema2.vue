@@ -21,15 +21,15 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                  span.fs-i plaintext
+                  span plaintext
                   br
-                  span.fs-i PS D:\gestion-empleados> npm install -g @angular/cli
+                  span PS D:\gestion-empleados> npm install -g @angular/cli
                   br
-                  span.fs-i npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+                  span npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
                   br
-                  span.fs-i npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+                  span npm WARN deprecated har-validator@5.1.5: this library is no longer supported
                   br
-                  span.fs-i npm WARN deprecated uuid@3.4.0: Please upgrade to version 7 or higher. See https://v8.dev/blog/math-random for details.
+                  span npm WARN deprecated uuid@3.4.0: Please upgrade to version 7 or higher. See https://v8.dev/blog/math-random for details.
     
     Separador
 
@@ -41,7 +41,7 @@
         figure
           img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 85px;")
       .col 
-        p.mb-0 A continuación se presenta la estructura de directorios del proyecto Angular creado con el comando #[b ng new frontend:]
+        p.mb-0 A continuación, se presenta la estructura de directorios del proyecto Angular creado con el comando #[b ng new frontend:]
 
     .fondo-personalizado-1.pos-bottom.pos-full.f5.mb-5
       .fondo-personalizado-1__contenido.pb-5
@@ -55,37 +55,37 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                span.fs-i GESTION-EMPLEADOS
-                br
-                span.fs-i ├── backend
-                br
-                span.fs-i ├── frontend
-                br
-                span.fs-i │   ├── node_modules
-                br
-                span.fs-i │   ├── src
-                br
-                span.fs-i │   ├── .browserslistrc
-                br
-                span.fs-i │   ├── .editorconfig
-                br
-                span.fs-i │   ├── .gitignore
-                br
-                span.fs-i │   ├── angular.json
-                br
-                span.fs-i │   ├── karma.conf.js
-                br
-                span.fs-i │   ├── package-lock.json
-                br
-                span.fs-i │   ├── package.json
-                br
-                span.fs-i │   ├── README.md
-                br
-                span.fs-i │   ├── tsconfig.app.json
-                br
-                span.fs-i │   ├── tsconfig.json
-                br
-                span.fs-i │   ├── tsconfig.spec.json
+                  span GESTION-EMPLEADOS
+                  br
+                  span ├── backend
+                  br
+                  span ├── frontend
+                  br
+                  span │   ├── node_modules
+                  br
+                  span │   ├── src
+                  br
+                  span │   ├── .browserslistrc
+                  br
+                  span │   ├── .editorconfig
+                  br
+                  span │   ├── .gitignore
+                  br
+                  span │   ├── angular.json
+                  br
+                  span │   ├── karma.conf.js
+                  br
+                  span │   ├── package-lock.json
+                  br
+                  span │   ├── package.json
+                  br
+                  span │   ├── README.md
+                  br
+                  span │   ├── tsconfig.app.json
+                  br
+                  span │   ├── tsconfig.json
+                  br
+                  span │   ├── tsconfig.spec.json
 
         .row.mb-5.pt-3.pb-3(data-aos="fade-up")
           .col-lg-7.mb-4.mb-lg-0
@@ -108,8 +108,8 @@
     
     .row(data-aos="fade-up")
       .col-lg-7
-        p.mb-4 Después de iniciar el servidor Angular, se revisa la estructura de directorios de este #[em framework]. Aunque hay muchos archivos, es necesario concentrarse en la carpeta ubicada en la ruta frontend/src/app. En la carpeta #[em app] se realizará todo el código necesario para el proyecto.
-        p.mb-0 Adicionalmente, para dar coherencia al proyecto, dentro de la carpeta app se crean tres carpetas más: #[em models, services y components], para tener bien definido el proyecto.
+        p.mb-4 Después de iniciar el servidor Angular, se revisa la estructura de directorios de este #[em framework]. Aunque hay muchos archivos, es necesario concentrarse en la carpeta ubicada en la ruta frontend/src/app. En la carpeta app se realizará todo el código necesario para el proyecto.
+        p.mb-0 Adicionalmente, para dar coherencia al proyecto, dentro de la carpeta app se crean tres carpetas más: models, services y components, para tener bien definido el proyecto.
       .col-lg-5.order-first.order-lg-last
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/32.png",style="max-width: 502px;")
@@ -126,37 +126,37 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                span.fs-i GESTION-EMPLEADOS
-                br
-                span.fs-i ├── backend
-                br
-                span.fs-i ├── frontend
-                br
-                span.fs-i │   ├── node_modules
-                br
-                span.fs-i │   ├── src
-                br
-                span.fs-i │   │   ├── app
-                br
-                span.fs-i │   │   │   ├── components
-                br
-                span.fs-i │   │   │   ├── models
-                br
-                span.fs-i │   │   │   ├── services
-                br
-                span.fs-i │   │   │   ├── app-routing.module.ts
-                br
-                span.fs-i │   │   │   ├── app.component.css
-                br
-                span.fs-i │   │   │   ├── app.component.html
-                br
-                span.fs-i │   │   │   ├── app.component.spec.ts
-                br
-                span.fs-i │   │   │   ├── app.component.ts
-                br
-                span.fs-i │   │   │   ├── app.module.ts
-                br
-                br
+                  span GESTION-EMPLEADOS
+                  br
+                  span ├── backend
+                  br
+                  span ├── frontend
+                  br
+                  span │   ├── node_modules
+                  br
+                  span │   ├── src
+                  br
+                  span │   │   ├── app
+                  br
+                  span │   │   │   ├── components
+                  br
+                  span │   │   │   ├── models
+                  br
+                  span │   │   │   ├── services
+                  br
+                  span │   │   │   ├── app-routing.module.ts
+                  br
+                  span │   │   │   ├── app.component.css
+                  br
+                  span │   │   │   ├── app.component.html
+                  br
+                  span │   │   │   ├── app.component.spec.ts
+                  br
+                  span │   │   │   ├── app.component.ts
+                  br
+                  span │   │   │   ├── app.module.ts
+                  br
+                  br
 
     .row(data-aos="fade-up")
       .col-auto.d-none.d-md-block 
@@ -206,29 +206,29 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                span.fs-i PS D:\gestion-empleados\frontend> cd .\src\app\components\
-                br
-                span.fs-i PS D:\gestion-empleados\frontend\src\app\components> ng g c empleados
-                br
-                span.fs-i CREATE src/app/components/empleados/empleados.component.html (24 bytes)
-                br
-                span.fs-i CREATE src/app/components/empleados/empleados.component.spec.ts (647 bytes)
-                br
-                span.fs-i CREATE src/app/components/empleados/empleados.component.ts (287 bytes)
-                br
-                span.fs-i CREATE src/app/components/empleados/empleados.component.css (0 bytes)
-                br
-                span.fs-i UPDATE src/app/app.module.ts (498 bytes)
-                br
-                span.fs-i empleados.component.css
-                br
-                span.fs-i empleados.component.html
-                br
-                span.fs-i empleados.component.spec.ts
-                br
-                span.fs-i empleados.component.ts
-                br
-                br
+                  span PS D:\gestion-empleados\frontend> cd .\src\app\components\
+                  br
+                  span PS D:\gestion-empleados\frontend\src\app\components> ng g c empleados
+                  br
+                  span CREATE src/app/components/empleados/empleados.component.html (24 bytes)
+                  br
+                  span CREATE src/app/components/empleados/empleados.component.spec.ts (647 bytes)
+                  br
+                  span CREATE src/app/components/empleados/empleados.component.ts (287 bytes)
+                  br
+                  span CREATE src/app/components/empleados/empleados.component.css (0 bytes)
+                  br
+                  span UPDATE src/app/app.module.ts (498 bytes)
+                  br
+                  span empleados.component.css
+                  br
+                  span empleados.component.html
+                  br
+                  span empleados.component.spec.ts
+                  br
+                  span empleados.component.ts
+                  br
+                  br
     
     Separador
 
@@ -242,7 +242,7 @@
             figure
               img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 85px;")
           .col 
-            p.mb-0 Se incorpora #[em Materialize] al proyecto mediante la inclusión de los #[em CDN] (red de distribución de contenidos) de hojas de estilos, JavaScript e íconos en el documento #[em index.html] del #[em Front-end], por lo que la ruta al archivo es #[b FrontEnd/src/index.html]
+            p.mb-0 Se incorpora #[em Materialize] al proyecto mediante la inclusión de los CDN (red de distribución de contenidos) de hojas de estilos, JavaScript e íconos en el documento index.html del #[em Front-end], por lo que la ruta al archivo es #[b FrontEnd/src/index.html]
         
         .row.justify-content-center.mb-4
           .col-lg-8
@@ -254,39 +254,39 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                  span.fs-i html
+                  span html
                   br
-                  span.fs-i &lt;!doctype html&gt;
+                  span &lt;!doctype html&gt;
                   br
-                  span.fs-i &lt;html lang="en"&gt;
+                  span &lt;html lang="en"&gt;
                   br
-                  span.fs-i &lt;head&gt;
+                  span &lt;head&gt;
                   br
-                  span.fs-i   &nbsp;&nbsp;  &lt;meta charset="utf-8"&gt;
+                  span   &nbsp;&nbsp;  &lt;meta charset="utf-8"&gt;
                   br
-                  span.fs-i   &nbsp;&nbsp;  &lt;title&gt;FrontEnd&lt;/title&gt;
+                  span   &nbsp;&nbsp;  &lt;title&gt;FrontEnd&lt;/title&gt;
                   br
-                  span.fs-i   &nbsp;&nbsp;  &lt;base href="/"&gt;
+                  span   &nbsp;&nbsp;  &lt;base href="/"&gt;
                   br
-                  span.fs-i   &nbsp;&nbsp;  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+                  span   &nbsp;&nbsp;  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
                   br
-                  span.fs-i   &nbsp;&nbsp;  &lt;link rel="icon" type="image/x-icon" href="favicon.ico"&gt;
+                  span   &nbsp;&nbsp;  &lt;link rel="icon" type="image/x-icon" href="favicon.ico"&gt;
                   br
-                  span.fs-i   &nbsp;&nbsp;  &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"&gt;
+                  span   &nbsp;&nbsp;  &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"&gt;
                   br
-                  span.fs-i   &nbsp;&nbsp;  &lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"&gt;
+                  span   &nbsp;&nbsp;  &lt;link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"&gt;
                   br
-                  span.fs-i &lt;/head&gt;
+                  span &lt;/head&gt;
                   br
-                  span.fs-i &lt;body&gt;
+                  span &lt;body&gt;
                   br
-                  span.fs-i   &nbsp;&nbsp;  &lt;app-root&gt;&lt;/app-root&gt;
+                  span   &nbsp;&nbsp;  &lt;app-root&gt;&lt;/app-root&gt;
                   br
-                  span.fs-i   &nbsp;&nbsp;  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"&gt;&lt;/script&gt;
+                  span   &nbsp;&nbsp;  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"&gt;&lt;/script&gt;
                   br
-                  span.fs-i &lt;/body&gt;
+                  span &lt;/body&gt;
                   br
-                  span.fs-i &lt;/html&gt;
+                  span &lt;/html&gt;
 
         Separador
 
@@ -310,24 +310,24 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                span.fs-i html
-                br
-                span.fs-i &lt;nav class="nav-wrapper blue"&gt;
-                br
-                span.fs-i  &nbsp;&nbsp;   &lt;div class="container"&gt;
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;       &lt;a href="/" class="brand-logo"&gt;GESTIÓN DE EMPLEADOS&lt;/a&gt;
-                br
-                span.fs-i  &nbsp;&nbsp;   &lt;/div&gt;
-                br
-                span.fs-i &lt;/nav&gt;
-                br
-                br
-                span.fs-i &lt;div class="container p-4"&gt;
-                br
-                span.fs-i  &nbsp;&nbsp;   &lt;app-empleados&gt;&lt;/app-empleados&gt;
-                br
-                span.fs-i &lt;/div&gt;
+                  span html
+                  br
+                  span &lt;nav class="nav-wrapper blue"&gt;
+                  br
+                  span  &nbsp;&nbsp;   &lt;div class="container"&gt;
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;       &lt;a href="/" class="brand-logo"&gt;GESTIÓN DE EMPLEADOS&lt;/a&gt;
+                  br
+                  span  &nbsp;&nbsp;   &lt;/div&gt;
+                  br
+                  span &lt;/nav&gt;
+                  br
+                  br
+                  span &lt;div class="container p-4"&gt;
+                  br
+                  span  &nbsp;&nbsp;   &lt;app-empleados&gt;&lt;/app-empleados&gt;
+                  br
+                  span &lt;/div&gt;
     
     .row.mb-3(data-aos="fade-up")
       .col-auto.d-none.d-md-block 
@@ -339,7 +339,7 @@
     Separador
 
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.5 Configuración de los módulos #[em app.module.ts]
+      h2 2.5 Configuración de los módulos app.module.ts
     
     .row.align-items-center.mb-5(data-aos="fade-up")
       .col-lg-7
@@ -362,62 +362,62 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                span.fs-i typescript
-                br
-                span.fs-i import { NgModule } from '@angular/core';
-                br
-                span.fs-i import { BrowserModule } from '@angular/platform-browser';
-                br
-                span.fs-i import { FormsModule } from '@angular/forms';
-                br
-                span.fs-i import { HttpClientModule } from '@angular/common/http';
-                br
-                br
-                span.fs-i import { AppRoutingModule } from './app-routing.module';
-                br
-                span.fs-i import { AppComponent } from './app.component';
-                br
-                span.fs-i import { EmpleadosComponent } from './components/empleados/empleados.component';
-                br
-                br
-                span.fs-i @NgModule({
-                br
-                span.fs-i  &nbsp;&nbsp;   declarations: [
-                br
-                span.fs-i    &nbsp;&nbsp;&nbsp;&nbsp;     AppComponent,
-                br
-                span.fs-i    &nbsp;&nbsp;&nbsp;&nbsp;     EmpleadosComponent
-                br
-                span.fs-i  &nbsp;&nbsp;   ],
-                br
-                span.fs-i  &nbsp;&nbsp;   imports: [
-                br
-                span.fs-i    &nbsp;&nbsp;&nbsp;&nbsp;     BrowserModule,
-                br
-                span.fs-i    &nbsp;&nbsp;&nbsp;&nbsp;     FormsModule,
-                br
-                span.fs-i    &nbsp;&nbsp;&nbsp;&nbsp;     AppRoutingModule,
-                br
-                span.fs-i    &nbsp;&nbsp;&nbsp;&nbsp;     HttpClientModule
-                br
-                span.fs-i   &nbsp;&nbsp;  ],
-                br
-                span.fs-i   &nbsp;&nbsp;  providers: [],
-                br
-                span.fs-i   &nbsp;&nbsp;  bootstrap: [AppComponent]
-                br
-                span.fs-i })
-                br
-                span.fs-i export class AppModule { }
+                  span typescript
+                  br
+                  span import { NgModule } from '@angular/core';
+                  br
+                  span import { BrowserModule } from '@angular/platform-browser';
+                  br
+                  span import { FormsModule } from '@angular/forms';
+                  br
+                  span import { HttpClientModule } from '@angular/common/http';
+                  br
+                  br
+                  span import { AppRoutingModule } from './app-routing.module';
+                  br
+                  span import { AppComponent } from './app.component';
+                  br
+                  span import { EmpleadosComponent } from './components/empleados/empleados.component';
+                  br
+                  br
+                  span @NgModule({
+                  br
+                  span  &nbsp;&nbsp;   declarations: [
+                  br
+                  span    &nbsp;&nbsp;&nbsp;&nbsp;     AppComponent,
+                  br
+                  span    &nbsp;&nbsp;&nbsp;&nbsp;     EmpleadosComponent
+                  br
+                  span  &nbsp;&nbsp;   ],
+                  br
+                  span  &nbsp;&nbsp;   imports: [
+                  br
+                  span    &nbsp;&nbsp;&nbsp;&nbsp;     BrowserModule,
+                  br
+                  span    &nbsp;&nbsp;&nbsp;&nbsp;     FormsModule,
+                  br
+                  span    &nbsp;&nbsp;&nbsp;&nbsp;     AppRoutingModule,
+                  br
+                  span    &nbsp;&nbsp;&nbsp;&nbsp;     HttpClientModule
+                  br
+                  span   &nbsp;&nbsp;  ],
+                  br
+                  span   &nbsp;&nbsp;  providers: [],
+                  br
+                  span   &nbsp;&nbsp;  bootstrap: [AppComponent]
+                  br
+                  span })
+                  br
+                  span export class AppModule { }
     
     Separador
 
     #t_2_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.6 Configuración del modelo #[em empleado.ts]
+      h2 2.6 Configuración del modelo empleado.ts
     
     .row.align-items-center.mper-1.mb-5(data-aos="fade-up")
       .col-lg-9
-        p.mb-4 Una vez realizada la configuración en los módulos de la aplicación, se inicia la construcción del modelo de la aplicación. La codificación se realiza dentro del archivo #[em empleado.ts], cuya ruta es #[em models/empleado.ts].
+        p.mb-4 Una vez realizada la configuración en los módulos de la aplicación, se inicia la construcción del modelo de la aplicación. La codificación se realiza dentro del archivo empleado.ts, cuya ruta es models/empleado.ts.
         p.mb-0 Dentro de este archivo se define la estructura de datos que está asociada a lo que se describió en el #[em back-end].
       .col-lg-3.order-first.order-lg-last
         figure.mb-4.mb-lg-0
@@ -435,38 +435,38 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                span.fs-i typescript
-                br
-                span.fs-i export class Empleado {
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;   constructor(_id = "", name = "", position = "", office = "", salary = 0) {
-                br
-                span.fs-i    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     this._id = _id;
-                br
-                span.fs-i    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     this.name = name;
-                br
-                span.fs-i    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     this.position = position;
-                br
-                span.fs-i    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     this.office = office;
-                br
-                span.fs-i    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     this.salary = salary;
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;   }
-                br
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;   _id: string; // Sub guión id porque los datos van a venir de MongoDB
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;   name: string;
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;   position: string;
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;   office: string;
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;   salary: number;
-                br
-                span.fs-i }
-                br
-                br
+                  span typescript
+                  br
+                  span export class Empleado {
+                  br
+                  span  &nbsp;&nbsp;&nbsp;   constructor(_id = "", name = "", position = "", office = "", salary = 0) {
+                  br
+                  span    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     this._id = _id;
+                  br
+                  span    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     this.name = name;
+                  br
+                  span    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     this.position = position;
+                  br
+                  span    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     this.office = office;
+                  br
+                  span    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     this.salary = salary;
+                  br
+                  span  &nbsp;&nbsp;&nbsp;   }
+                  br
+                  br
+                  span  &nbsp;&nbsp;&nbsp;   _id: string; // Sub guión id porque los datos van a venir de MongoDB
+                  br
+                  span  &nbsp;&nbsp;&nbsp;   name: string;
+                  br
+                  span  &nbsp;&nbsp;&nbsp;   position: string;
+                  br
+                  span  &nbsp;&nbsp;&nbsp;   office: string;
+                  br
+                  span  &nbsp;&nbsp;&nbsp;   salary: number;
+                  br
+                  span }
+                  br
+                  br
     
     p.mb-4(data-aos="fade-up") En el código anterior, se definen los parámetros que serán utilizados para el envío de datos hacia el servidor; por lo tanto, se comienza con la inicialización de las variables a través de un constructor y con la declaración del tipo de datos de cada una.
 
@@ -477,8 +477,8 @@
     
     .row.mb-4(data-aos="fade-up")
       .col-lg-7
-        p.mb-4 El objetivo general de esta parte del proyecto es agregar los datos ya definidos a la REST API. Para ello, se enfoca en generar el servicio necesario, desarrollando el archivo #[em empleado.service.ts]. Este servicio permite definir los métodos reutilizables en cualquier parte de la aplicación. En este caso, se trata de funciones que gestionan los datos, como agregar, eliminar, y editar, entre otros.
-        p.mb-0 A continuación, se presenta el código del archivo #[em empleado.service.ts].
+        p.mb-4 El objetivo general de esta parte del proyecto es agregar los datos ya definidos a la REST API. Para ello, se enfoca en generar el servicio necesario, desarrollando el archivo empleado.service.ts. Este servicio permite definir los métodos reutilizables en cualquier parte de la aplicación. En este caso, se trata de funciones que gestionan los datos, como agregar, eliminar y editar, entre otros.
+        p.mb-0 A continuación, se presenta el código del archivo empleado.service.ts.
       .col-lg-5.order-first.order-lg-last
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/43.png",style="max-width: 502px;")
@@ -495,73 +495,73 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                span.fs-i typescript
-                br
-                span.fs-i import { Injectable } from '@angular/core';
-                br
-                span.fs-i import { HttpClient } from '@angular/common/http';
-                br
-                span.fs-i import { Empleado } from '../models/empleado';
-                br
-                br
-                span.fs-i @Injectable({
-                br
-                span.fs-i &nbsp;&nbsp;  providedIn: 'root'
-                br
-                span.fs-i })
-                br
-                span.fs-i export class EmpleadoService {
-                br
-                br
-                span.fs-i &nbsp;&nbsp;  selectedEmpleado: Empleado;
-                br
-                span.fs-i &nbsp;&nbsp;  empleados: Empleado[];
-                br
-                span.fs-i &nbsp;&nbsp;  readonly URL_API = 'http://localhost:3000/api/empleados';
-                br
-                br
-                span.fs-i &nbsp;&nbsp;  constructor(private http: HttpClient) {
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   this.selectedEmpleado = new Empleado();
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   this.empleados = [];
-                br
-                span.fs-i &nbsp;&nbsp;  }
-                br
-                br
-                span.fs-i &nbsp;&nbsp;  getEmpleados() {
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   return this.http.get(this.URL_API);
-                br
-                span.fs-i &nbsp;&nbsp;  }
-                br
-                br
-                span.fs-i &nbsp;&nbsp;  postEmpleado(Empleado: Empleado) {
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   return this.http.post(this.URL_API, Empleado);
-                br
-                span.fs-i &nbsp;&nbsp;  }
-                br
-                br
-                span.fs-i &nbsp;&nbsp;  putEmpleado(Empleado: Empleado) {
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   return this.http.put(this.URL_API + `/${Empleado._id}`, Empleado);
-                br
-                span.fs-i &nbsp;&nbsp;  }
-                br
-                br
-                span.fs-i &nbsp;&nbsp;  deleteEmpleado(_id: string) {
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   // Solo se necesita el id, no todo lo del empleado
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   return this.http.delete(this.URL_API + `/${_id}`); // utilizamos el método delete
-                br
-                span.fs-i &nbsp;&nbsp;  }
-                br
-                br
-                span.fs-i }
+                  span typescript
+                  br
+                  span import { Injectable } from '@angular/core';
+                  br
+                  span import { HttpClient } from '@angular/common/http';
+                  br
+                  span import { Empleado } from '../models/empleado';
+                  br
+                  br
+                  span @Injectable({
+                  br
+                  span &nbsp;&nbsp;  providedIn: 'root'
+                  br
+                  span })
+                  br
+                  span export class EmpleadoService {
+                  br
+                  br
+                  span &nbsp;&nbsp;  selectedEmpleado: Empleado;
+                  br
+                  span &nbsp;&nbsp;  empleados: Empleado[];
+                  br
+                  span &nbsp;&nbsp;  readonly URL_API = 'http://localhost:3000/api/empleados';
+                  br
+                  br
+                  span &nbsp;&nbsp;  constructor(private http: HttpClient) {
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   this.selectedEmpleado = new Empleado();
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   this.empleados = [];
+                  br
+                  span &nbsp;&nbsp;  }
+                  br
+                  br
+                  span &nbsp;&nbsp;  getEmpleados() {
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   return this.http.get(this.URL_API);
+                  br
+                  span &nbsp;&nbsp;  }
+                  br
+                  br
+                  span &nbsp;&nbsp;  postEmpleado(Empleado: Empleado) {
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   return this.http.post(this.URL_API, Empleado);
+                  br
+                  span &nbsp;&nbsp;  }
+                  br
+                  br
+                  span &nbsp;&nbsp;  putEmpleado(Empleado: Empleado) {
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   return this.http.put(this.URL_API + `/${Empleado._id}`, Empleado);
+                  br
+                  span &nbsp;&nbsp;  }
+                  br
+                  br
+                  span &nbsp;&nbsp;  deleteEmpleado(_id: string) {
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   // Solo se necesita el id, no todo lo del empleado
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   return this.http.delete(this.URL_API + `/${_id}`); // utilizamos el método delete
+                  br
+                  span &nbsp;&nbsp;  }
+                  br
+                  br
+                  span }
     
-    p.mb-4(data-aos="fade-up") En el código anterior se resalta la importancia de haber definido primeramente el módulo #[em empleado.ts], ya que esto establece una estructura clara de datos. Por esta razón, se importa el modelo y se asegura la comunicación con el servidor a través de la modificación del archivo #[em app.modules.ts] con la incorporación del módulo #[em HTTPClient].
+    p.mb-4(data-aos="fade-up") En el código anterior se resalta la importancia de haber definido primeramente el módulo empleado.ts, ya que esto establece una estructura clara de datos. Por esta razón, se importa el modelo y se asegura la comunicación con el servidor a través de la modificación del archivo app.modules.ts con la incorporación del módulo HTTPClient.
 
     .fondo-personalizado-1.pos-full.f5.mb-2
       .fondo-personalizado-1__contenido.pb-5.pt-5
@@ -576,11 +576,11 @@
                 .col-lg-9.ps-lg-0
                   .fondo-color-primario.p-3.h-100
                     .d-flex.align-items-center.h-100
-                      p.text-white.mb-0(style="font-size: 13px;") Además, se establece como atributo de solo lectura la URL de la API a la cual se conectará el cliente, en este caso, la URL del servidor ya configurada en la primera sección de este componente es #[a.link-personalizado-1.c-color-acento-contenido(style="font-style: italic;",target='_blank',href='http://localhost:3000/empleados') http://localhost:3000/empleados].
+                      p.text-white.mb-0(style="font-size: 15px;") Además, se establece como atributo de solo lectura la URL de la API a la cual se conectará el cliente, en este caso, la URL del servidor ya configurada en la primera sección de este componente es #[a.link-personalizado-1.c-color-acento-contenido(style="font-style: italic;",target='_blank',href='http://localhost:3000/empleados') http://localhost:3000/empleados].
         
         .row.align-items-center.pb-5(data-aos="fade-up")
           .col-lg-7
-            p.mb-0 A continuación, se procede con la definición de los métodos para la gestión de los datos de empleado, generando así cuatro métodos: #[ getEmpleados, postEmpleados, putEmpleado y deleteEmpleado]. Para el caso de estudio, se analiza el método #[em postEmpleado], que recibe como parámetro un objeto de tipo #[em Empleado]. El retorno es la adición de un nuevo empleado (se envían todos los datos) a través del método HTTP POST:
+            p.mb-0 A continuación, se procede con la definición de los métodos para la gestión de los datos de empleado, generando así cuatro métodos: getEmpleados, postEmpleados, putEmpleado y deleteEmpleado. Para el caso de estudio, se analiza el método postEmpleado, que recibe como parámetro un objeto de tipo Empleado. El retorno es la adición de un nuevo empleado (se envían todos los datos) a través del método HTTP POST:
           .col-lg-5
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/46.png",style="max-width: 502px;")
@@ -597,7 +597,7 @@
     #t_2_8.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.8 Desarrollo del componente #[em empleados.component.ts]
     
-    p.mb-5(data-aos="fade-up") Definidos los servicios, es necesario abordar la lógica del componente. A continuación, se enfoca en el archivo #[em empleados.component.ts]. El código del archivo se presenta a continuación:
+    p.mb-5(data-aos="fade-up") Definidos los servicios, es necesario abordar la lógica del componente. A continuación, se enfoca en el archivo empleados.component.ts. El código del archivo se presenta a continuación:
 
     .fondo-personalizado-1.f10.mb-5
       .fondo-personalizado-1__contenido.pt-3.pb-5
@@ -611,85 +611,85 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                span.fs-i import { Component, OnInit } from '@angular/core';
-                br
-                span.fs-i import { EmpleadoService } from '../services/empleado.service';
-                br
-                span.fs-i import { NgForm } from '@angular/forms';
-                br
-                span.fs-i import { Empleado } from '../models/empleado';
-                br
-                br
-                span.fs-i declare var M: any;
-                br
-                br
-                span.fs-i @Component({
-                br
-                span.fs-i &nbsp;&nbsp;  selector: 'app-empleados',
-                br
-                span.fs-i &nbsp;&nbsp;  templateUrl: './empleados.component.html',
-                br
-                span.fs-i &nbsp;&nbsp;  styleUrls: ['./empleados.component.css'],
-                br
-                span.fs-i &nbsp;&nbsp;  providers: [EmpleadoService]
-                br
-                span.fs-i })
-                br
-                span.fs-i export class EmpleadosComponent implements OnInit {
-                br
-                br
-                span.fs-i &nbsp;&nbsp;  constructor(public empleadoService: EmpleadoService) { }
-                br
-                br
-                span.fs-i &nbsp;&nbsp;  ngOnInit(): void {
-                br
-                span.fs-i &nbsp;&nbsp;  }
-                br
-                br
-                span.fs-i &nbsp;&nbsp;  agregarEmpleado(form?: NgForm) {
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   this.empleadoService.postEmpleado(form?.value)
-                br
-                span.fs-i   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    .subscribe(res => {
-                br
-                span.fs-i   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      this.resetForm(form);
-                br
-                span.fs-i   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      M.toast({ html: 'Guardado satisfactoriamente' });
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;     });
-                br
-                span.fs-i &nbsp;&nbsp;  }
-                br
-                br
-                span.fs-i &nbsp;&nbsp;  resetForm(form?: NgForm) {
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   // Limpiar el formulario, recibe un formulario como parámetro
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   if (form) {
-                br
-                span.fs-i   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    form.reset();
-                br
-                span.fs-i   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    this.empleadoService.selectedEmpleado = new Empleado();
-                br
-                span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   }
-                br
-                span.fs-i  &nbsp;&nbsp; }
-                br
-                span.fs-i }
+                  span import { Component, OnInit } from '@angular/core';
+                  br
+                  span import { EmpleadoService } from '../services/empleado.service';
+                  br
+                  span import { NgForm } from '@angular/forms';
+                  br
+                  span import { Empleado } from '../models/empleado';
+                  br
+                  br
+                  span declare var M: any;
+                  br
+                  br
+                  span @Component({
+                  br
+                  span &nbsp;&nbsp;  selector: 'app-empleados',
+                  br
+                  span &nbsp;&nbsp;  templateUrl: './empleados.component.html',
+                  br
+                  span &nbsp;&nbsp;  styleUrls: ['./empleados.component.css'],
+                  br
+                  span &nbsp;&nbsp;  providers: [EmpleadoService]
+                  br
+                  span })
+                  br
+                  span export class EmpleadosComponent implements OnInit {
+                  br
+                  br
+                  span &nbsp;&nbsp;  constructor(public empleadoService: EmpleadoService) { }
+                  br
+                  br
+                  span &nbsp;&nbsp;  ngOnInit(): void {
+                  br
+                  span &nbsp;&nbsp;  }
+                  br
+                  br
+                  span &nbsp;&nbsp;  agregarEmpleado(form?: NgForm) {
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   this.empleadoService.postEmpleado(form?.value)
+                  br
+                  span   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    .subscribe(res => {
+                  br
+                  span   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      this.resetForm(form);
+                  br
+                  span   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      M.toast({ html: 'Guardado satisfactoriamente' });
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;     });
+                  br
+                  span &nbsp;&nbsp;  }
+                  br
+                  br
+                  span &nbsp;&nbsp;  resetForm(form?: NgForm) {
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   // Limpiar el formulario, recibe un formulario como parámetro
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   if (form) {
+                  br
+                  span   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    form.reset();
+                  br
+                  span   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    this.empleadoService.selectedEmpleado = new Empleado();
+                  br
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   }
+                  br
+                  span  &nbsp;&nbsp; }
+                  br
+                  span }
     
     .row.mb-3(data-aos="fade-up")
       .col-md-auto 
         figure.mb-4.mb-md-0
           img.mx-auto(src="@/assets/curso/temas/47.svg",style="max-width: 86px;")
       .col 
-        p.mb-0 En el código anterior se destaca la importancia de haber creado y configurado previamente los módulos y archivos para la construcción de este componente. Para su funcionamiento adecuado, es necesario contar con #[em EmpleadoService], el modelo #[em Empleado] y el módulo ya definido como #[em NgForm].
+        p.mb-0 En el código anterior se destaca la importancia de haber creado y configurado previamente los módulos y archivos para la construcción de este componente. Para su funcionamiento adecuado, es necesario contar con EmpleadoService, el modelo Empleado y el módulo ya definido como NgForm.
     
     .row.align-items-center.mb-5(data-aos="fade-up")
       .col-lg-8
         .fondo-color-primario.p-4.borde-10.mb-4
-          p.mb-0.text-white Una vez se importan estos módulos, se enfocan los esfuerzos en los métodos. Para el caso de estudio, se destaca el método de agregar empleado. Este método toma como parámetro la existencia de datos del formulario y, si es verdadero, llama al método del servicio empleado (previamente construido) #[em PostEmpleado], entregando los valores para que sean enviados al servidor y almacenados en la base de datos de MongoDB.
+          p.mb-0.text-white Una vez se importan estos módulos, se enfocan los esfuerzos en los métodos. Para el caso de estudio, se destaca el método de agregar empleado. Este método toma como parámetro la existencia de datos del formulario y, si es verdadero, llama al método del servicio empleado (previamente construido) PostEmpleado, entregando los valores para que sean enviados al servidor y almacenados en la base de datos de MongoDB.
         .fondo-color-sistema-i.p-4.borde-10
-          p.mb-0 Además, como ejemplo de este componente, se añade un plus: en cada adición de datos en el formulario, este se puede limpiar automáticamente mediante la función #[em resetForm], que resetea o limpia los campos del formulario utilizando la función intrínseca #[em reset()].
+          p.mb-0 Además, como ejemplo de este componente, se añade un plus: en cada adición de datos en el formulario, este se puede limpiar automáticamente mediante la función resetForm, que resetea o limpia los campos del formulario utilizando la función intrínseca reset().
       .col-lg-4.order-first.order-lg-last
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/48.png",style="max-width: 397px;")
@@ -699,7 +699,7 @@
         figure
           img.mx-auto(src="@/assets/curso/temas/34.svg",style="max-width: 85px;")
       .col 
-        p.mb-0 Finalmente, para mejorar la interfaz, se agrega un complemento de #[em Materialize] llamado #[em Toast], que no es más que una notificación que se utiliza para indicar al usuario que el empleado se ha guardado correctamente.
+        p.mb-0 Finalmente, para mejorar la interfaz, se agrega un complemento de Materialize llamado Toast, que no es más que una notificación que se utiliza para indicar al usuario que el empleado se ha guardado correctamente.
 
     Separador
 
@@ -730,81 +730,81 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                  span.fs-i &lt;div class="container"&gt;
+                  span &lt;div class="container"&gt;
                   br
-                  span.fs-i &nbsp;&nbsp;  &lt;div class="row"&gt;
+                  span &nbsp;&nbsp;  &lt;div class="row"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   &lt;div class="col s5"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   &lt;div class="col s5"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     &lt;div class="card"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     &lt;div class="card"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       &lt;div class="card-content"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       &lt;div class="card-content"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         &lt;form #empleadoForm="ngForm" (ngSubmit)="agregarEmpleado(empleadoForm)"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         &lt;form #empleadoForm="ngForm" (ngSubmit)="agregarEmpleado(empleadoForm)"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           &lt;div class="row"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           &lt;div class="row"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;div class="input-field col s12"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;div class="input-field col s12"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;input type="text" name="name" #name="ngModel" [(ngModel)]="empleadoService.selectedEmpleado.name" placeholder="Ingrese su nombre"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;input type="text" name="name" #name="ngModel" [(ngModel)]="empleadoService.selectedEmpleado.name" placeholder="Ingrese su nombre"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;/div&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;/div&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;div class="input-field col s12"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;div class="input-field col s12"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;input type="text" name="position" #position="ngModel" [(ngModel)]="empleadoService.selectedEmpleado.position" placeholder="Ingrese su cargo"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;input type="text" name="position" #position="ngModel" [(ngModel)]="empleadoService.selectedEmpleado.position" placeholder="Ingrese su cargo"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;/div&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;/div&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;div class="input-field col s12"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;div class="input-field col s12"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;input type="text" name="office" #office="ngModel" [(ngModel)]="empleadoService.selectedEmpleado.office" placeholder="Ingrese su lugar de trabajo"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;input type="text" name="office" #office="ngModel" [(ngModel)]="empleadoService.selectedEmpleado.office" placeholder="Ingrese su lugar de trabajo"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;/div&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;/div&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;div class="input-field col s12"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;div class="input-field col s12"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;input type="text" name="salary" #salary="ngModel" [(ngModel)]="empleadoService.selectedEmpleado.salary" placeholder="Ingrese su salario"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;input type="text" name="salary" #salary="ngModel" [(ngModel)]="empleadoService.selectedEmpleado.salary" placeholder="Ingrese su salario"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;/div&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;/div&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;div class="card-action"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;div class="card-action"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;div class="input-field col s12"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;div class="input-field col s12"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 &lt;button class="btn right" (click)="resetForm(empleadoForm)"&gt;Limpiar&lt;/button&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 &lt;button class="btn right" (click)="resetForm(empleadoForm)"&gt;Limpiar&lt;/button&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 &lt;button class="btn"&gt;Guardar&lt;/button&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                 &lt;button class="btn"&gt;Guardar&lt;/button&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;/div&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               &lt;/div&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;/div&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;             &lt;/div&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           &lt;/div&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           &lt;/div&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         &lt;/form&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         &lt;/form&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       &lt;/div&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       &lt;/div&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     &lt;/div&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     &lt;/div&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   &lt;/div&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   &lt;/div&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   &lt;div class="col s7"&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   &lt;div class="col s7"&gt;
                   br
-                  span.fs-i  &nbsp;&nbsp;&nbsp;&nbsp;   &lt;/div&gt;
+                  span  &nbsp;&nbsp;&nbsp;&nbsp;   &lt;/div&gt;
                   br
-                  span.fs-i &nbsp;&nbsp;  &lt;/div&gt;
+                  span &nbsp;&nbsp;  &lt;/div&gt;
                   br
-                  span.fs-i &lt;/div&gt;
+                  span &lt;/div&gt;
 
     .row.align-items-center.mb-5(data-aos="fade-up")
       .col-lg-7
-        p.mb-3 En el código anterior se presenta la estructura base de un formulario en HTML, el cual se adhiere a clases y reglas provistas por #[em Materialize] para mejorar la apariencia de la interfaz. Además, se muestran cuatro #[em inputs] en los cuales el usuario debe ingresar datos, y al final se presentan dos botones: uno para enviar el formulario y otro para limpiarlo. A continuación, se destaca una línea de código específica:
+        p.mb-3 En el código anterior se presenta la estructura base de un formulario en HTML, el cual se adhiere a clases y reglas provistas por Materialize para mejorar la apariencia de la interfaz. Además, se muestran cuatro #[em inputs] en los cuales el usuario debe ingresar datos, y al final se presentan dos botones: uno para enviar el formulario y otro para limpiarlo. A continuación, se destaca una línea de código específica:
         .fondo-color-sistema-m.p-4.borde-16.mb-5
           p.mb-0.fw-bold &lt;form #empleadoForm="ngForm" (ngSubmit)="agregarEmpleado(empleadoForm)"&gt;
         
-        p.mb-0 Esta línea define que todos los campos del formulario serán almacenados en una sola variable (#[em empleadoForm]), y estos campos serán procesados por el método #[em agregarEmpleado], método que #[b fue definido anteriormente en el componente de empleado].
+        p.mb-0 Esta línea define que todos los campos del formulario serán almacenados en una sola variable (empleadoForm), y estos campos serán procesados por el método agregarEmpleado, método que #[b fue definido anteriormente en el componente de empleado].
       .col-lg-5.order-first.order-lg-last
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/50.png",style="max-width: 502px;")
@@ -889,74 +889,74 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                  span.fs-i json
+                  span json
                   br
-                  span.fs-i {
+                  span {
                   br
-                  span.fs-i  &nbsp;&nbsp; "_id": ObjectId("60d2aeaa21a176987f0157485"),
+                  span  &nbsp;&nbsp; "_id": ObjectId("60d2aeaa21a176987f0157485"),
                   br
-                  span.fs-i  &nbsp;&nbsp; "name": "Julian",
+                  span  &nbsp;&nbsp; "name": "Julian",
                   br
-                  span.fs-i  &nbsp;&nbsp; "position": "Ingeniero",
+                  span  &nbsp;&nbsp; "position": "Ingeniero",
                   br
-                  span.fs-i  &nbsp;&nbsp; "office": "Cali",
+                  span  &nbsp;&nbsp; "office": "Cali",
                   br
-                  span.fs-i  &nbsp;&nbsp; "salary": 5000,
+                  span  &nbsp;&nbsp; "salary": 5000,
                   br
-                  span.fs-i  &nbsp;&nbsp; "__v": 0
+                  span  &nbsp;&nbsp; "__v": 0
                   br
-                  span.fs-i }
-                  br
-                  br
-                  span.fs-i {
-                  br
-                  span.fs-i  &nbsp;&nbsp; "_id": ObjectId("60d2aeaa21a176987f0157487"),
-                  br
-                  span.fs-i  &nbsp;&nbsp; "name": "Julian",
-                  br
-                  span.fs-i  &nbsp;&nbsp; "position": "Ingeniero",
-                  br
-                  span.fs-i  &nbsp;&nbsp; "office": "Cali",
-                  br
-                  span.fs-i  &nbsp;&nbsp; "salary": 5000,
-                  br
-                  span.fs-i  &nbsp;&nbsp; "__v": 0
-                  br
-                  span.fs-i }
+                  span }
                   br
                   br
-                  span.fs-i {
+                  span {
                   br
-                  span.fs-i  &nbsp;&nbsp; "_id": ObjectId("60d2aeaa21a176987f0157489"),
+                  span  &nbsp;&nbsp; "_id": ObjectId("60d2aeaa21a176987f0157487"),
                   br
-                  span.fs-i  &nbsp;&nbsp; "name": "Jaime",
+                  span  &nbsp;&nbsp; "name": "Julian",
                   br
-                  span.fs-i  &nbsp;&nbsp; "position": "Oficial",
+                  span  &nbsp;&nbsp; "position": "Ingeniero",
                   br
-                  span.fs-i  &nbsp;&nbsp; "office": "Juzgados",
+                  span  &nbsp;&nbsp; "office": "Cali",
                   br
-                  span.fs-i  &nbsp;&nbsp; "salary": 8000,
+                  span  &nbsp;&nbsp; "salary": 5000,
                   br
-                  span.fs-i  &nbsp;&nbsp; "__v": 0
+                  span  &nbsp;&nbsp; "__v": 0
                   br
-                  span.fs-i }
+                  span }
                   br
                   br
-                  span.fs-i {
+                  span {
                   br
-                  span.fs-i  &nbsp;&nbsp; "_id": ObjectId("60d64392eadf31b1d99e64f4"),
+                  span  &nbsp;&nbsp; "_id": ObjectId("60d2aeaa21a176987f0157489"),
                   br
-                  span.fs-i  &nbsp;&nbsp; "name": "María Isabel",
+                  span  &nbsp;&nbsp; "name": "Jaime",
                   br
-                  span.fs-i  &nbsp;&nbsp; "position": "Instructora",
+                  span  &nbsp;&nbsp; "position": "Oficial",
                   br
-                  span.fs-i  &nbsp;&nbsp; "office": "Cali",
+                  span  &nbsp;&nbsp; "office": "Juzgados",
                   br
-                  span.fs-i  &nbsp;&nbsp; "salary": 3000,
+                  span  &nbsp;&nbsp; "salary": 8000,
                   br
-                  span.fs-i  &nbsp;&nbsp; "__v": 0
+                  span  &nbsp;&nbsp; "__v": 0
                   br
-                  span.fs-i }
+                  span }
+                  br
+                  br
+                  span {
+                  br
+                  span  &nbsp;&nbsp; "_id": ObjectId("60d64392eadf31b1d99e64f4"),
+                  br
+                  span  &nbsp;&nbsp; "name": "María Isabel",
+                  br
+                  span  &nbsp;&nbsp; "position": "Instructora",
+                  br
+                  span  &nbsp;&nbsp; "office": "Cali",
+                  br
+                  span  &nbsp;&nbsp; "salary": 3000,
+                  br
+                  span  &nbsp;&nbsp; "__v": 0
+                  br
+                  span }
                   br
                   br
         
@@ -977,21 +977,21 @@
                   .bloque-codigo-circulo.c3
               .cuerpo-bloque-codigo.p-4
                 code.text-wrap
-                span.fs-i {
-                br
-                span.fs-i &nbsp;&nbsp;  "_id": ObjectId("60d64392eadf31b1d99e64f4"),
-                br
-                span.fs-i &nbsp;&nbsp;  "name": "María Isabel",
-                br
-                span.fs-i &nbsp;&nbsp;  "position": "Instructora",
-                br
-                span.fs-i &nbsp;&nbsp;  "office": "Cali",
-                br
-                span.fs-i &nbsp;&nbsp;  "salary": 3000,
-                br
-                span.fs-i &nbsp;&nbsp;  "__v": 0
-                br
-                span.fs-i }
+                  span {
+                  br
+                  span &nbsp;&nbsp;  "_id": ObjectId("60d64392eadf31b1d99e64f4"),
+                  br
+                  span &nbsp;&nbsp;  "name": "María Isabel",
+                  br
+                  span &nbsp;&nbsp;  "position": "Instructora",
+                  br
+                  span &nbsp;&nbsp;  "office": "Cali",
+                  br
+                  span &nbsp;&nbsp;  "salary": 3000,
+                  br
+                  span &nbsp;&nbsp;  "__v": 0
+                  br
+                  span }
 
         .row.mb-5(data-aos="fade-up")
           .col-auto.d-none.d-md-block 
@@ -1010,7 +1010,7 @@
                       figure
                         img.mx-auto(src="@/assets/curso/temas/57.svg",style="max-width: 64px;")
                 .col 
-                  p.mb-0.text-white Se espera que haya sido de aprendizaje el uso de tecnologías tanto del lado del cliente como del lado del servidor. Este es uno de los ejercicios más completos y precisos que se pueden realizar en materia de esta disciplina del desarrollo web. En ese sentido, se exhorta a seguir estudiando más alternativas sobre este tipo de desarrollos que son muy demandados en la industria del #[em software].
+                  p.mb-0.text-white Se espera que haya sido de aprendizaje el uso de tecnologías tanto del lado del cliente como del lado del servidor. Este es uno de los ejercicios más completos y precisos que se pueden realizar en materia de esta disciplina del desarrollo web. En ese sentido, se exhorta a seguir estudiando más alternativas sobre este tipo de desarrollos que son muy demandados en la industria del software.
 
 
 </template>

@@ -240,7 +240,7 @@ export default {
     {
       termino: '<em>Async</em>',
       significado:
-        'cuando se llama a una función <em>async</em>, se devuelve un elemento de tipo promesa o <em>promise</em>. Cuando la función <em>async</em> devuelve un valor, la promesa resolverá con el valor devuelto. Si la función <em>async</em> genera una excepción o algún valor, la promesa se rechazará con el valor generado.',
+        'cuando se llama a una función <em>async</em>, se devuelve un elemento de tipo promesa o <em>promise</em>. Cuando la función <em>async</em> devuelve un valor, la promesa se resolverá con el valor devuelto. Si la función <em>async</em> genera una excepción o algún valor, la promesa se rechazará con el valor generado.',
     },
     {
       termino: '<em>Await</em>',
