@@ -1010,7 +1010,7 @@
                       figure
                         img.mx-auto(src="@/assets/curso/temas/57.svg",style="max-width: 64px;")
                 .col 
-                  p.mb-0.text-white Se espera que haya sido de aprendizaje el uso de tecnologías tanto del lado del cliente como del lado del servidor. Este es uno de los ejercicios más completos y precisos que se pueden realizar en materia de esta disciplina del desarrollo web. En ese sentido, se exhorta a seguir estudiando más alternativas sobre este tipo de desarrollos que son muy demandados en la industria del software.
+                  p.mb-0.text-white Se espera que haya sido de aprendizaje el uso de tecnologías tanto del lado del cliente como del lado del servidor. Este es uno de los ejercicios más completos y precisos que se pueden realizar en materia de esta disciplina del desarrollo web. En ese sentido, se exhorta a seguir estudiando más alternativas sobre este tipo de desarrollos que son muy demandados en la industria del #[em software].
 
 
 </template>
