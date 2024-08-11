@@ -96,7 +96,7 @@
                   br
                   span PS D:\gestion-empleados> npm init --yes
         
-        p.mb-0(data-aos="fade-up") Una vez creado el proyecto, se requieren todas las bondades del framework de Node.js, para lo cual es necesario Express. Express generará una serie de componentes que ayudarán mucho al desarrollo de esta aplicación. Por lo tanto, se instala Express con la siguiente línea de comandos desde la terminal del VS Code: #[b npm install express].
+        p.mb-0(data-aos="fade-up") Una vez creado el proyecto, se requieren todas las bondades del #[i framework] de Node.js, para lo cual es necesario Express. Express generará una serie de componentes que ayudarán mucho al desarrollo de esta aplicación. Por lo tanto, se instala Express con la siguiente línea de comandos desde la terminal del VS Code: #[b npm install express].
 
     Separador
 
@@ -282,7 +282,7 @@
       .fondo-personalizado-1__contenido.pt-3.pb-4
         .row.align-items-center.mb-5(data-aos="fade-up")
           .col-lg-7
-            p.mb-0 De manera opcional, se puede instalar la extensión de MongoDB dentro del entorno de VS Code, permitiendo una mayor integralidad en el desarrollo. Estas herramientas facilitan la celeridad en el proceso de construcción de sistemas de #[em software]. Por lo tanto, en el material de apoyo se dejará información para acceder a la guía de instalación de esta extensión, denominada #[em extensión VS Code y MongoDB]. 
+            p.mb-0 De manera opcional, se puede instalar la extensión de MongoDB dentro del entorno de VS Code, permitiendo una mayor integralidad en el desarrollo. Estas herramientas facilitan la celeridad en el proceso de construcción de sistemas de #[em software]. Por lo tanto, en el material de apoyo se dejará información para acceder a la guía de instalación de esta extensión, denominada extensión VS Code y MongoDB. 
           .col-lg-5
             .bloque-codigo-personalizado(data-aos="fade-up")
               .cabecera-bloque-codigo.p-4.py-3
@@ -381,7 +381,7 @@
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.5 Configuración de las rutas del proyecto con Node.js
 
-    p.mb-5(data-aos="fade-up") El siguiente paso es configurar las rutas o URL por donde se van a enviar o recibir los datos, por lo que se crea un archivo llamado #[em empleado.route.js] dentro de la carpeta #[em routes]. En este primer apartado, se desea revisar el funcionamiento de las rutas, por lo que, a manera de prueba, se presenta el siguiente código:
+    p.mb-5(data-aos="fade-up") El siguiente paso es configurar las rutas o URL por donde se van a enviar o recibir los datos, por lo que se crea un archivo llamado empleado.route.js dentro de la carpeta #[em routes]. En este primer apartado, se desea revisar el funcionamiento de las rutas, por lo que, a manera de prueba, se presenta el siguiente código:
 
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-lg-6
@@ -463,8 +463,8 @@
 
     .row.mb-5(data-aos="fade-up") 
       .col-lg-7
-        p.mb-4 Ya visto un ejemplo del funcionamiento de las rutas, es necesario comprender su comportamiento. Cada solicitud debe ir asociada a una ruta, y esta a su vez a un intercambio de información o de datos, es decir, de interacción con la base de datos. En ese sentido, es más que necesaria la construcción del modelo #[em empleado.js] con datos específicos para los empleados dentro de la carpeta #[em models].
-        p.mb-0 Para construir el modelo #[em empleado.js], primero se debe crear un esquema que defina la estructura de los datos que se almacenarán en la base de datos. Aquí un ejemplo de cómo podría verse el archivo #[em empleado.js]:
+        p.mb-4 Ya visto un ejemplo del funcionamiento de las rutas, es necesario comprender su comportamiento. Cada solicitud debe ir asociada a una ruta, y esta a su vez a un intercambio de información o de datos, es decir, de interacción con la base de datos. En ese sentido, es más que necesaria la construcción del modelo  empleado.js con datos específicos para los empleados dentro de la carpeta #[em models].
+        p.mb-0 Para construir el modelo empleado.js, primero se debe crear un esquema que defina la estructura de los datos que se almacenarán en la base de datos. Aquí un ejemplo de cómo podría verse el archivo empleado.js:
       .col-lg-5.order-first.order-lg-last
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/18.png",style="max-width: 502px;")
